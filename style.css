@@ -1,12 +1,36 @@
-.listcat {
-    background-color: pink;
-    font-dize: 3rem;
-    position: sicky; 
-    top: 3vh 
-    margin-top: 100 px;
-    width: 50%;
-}
-<style>
-H2{
+
+
+h1{
     text-align: center;
+    color: lavenderblush;
+}
+
+.flower{
+    font-size: 23px;
+    letter-spacing: 1px;
+    color: palevioletred;
+    transition-property: letter-sapcing, color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.flower:hover{
+    letter-spacing: 15px;
+    color: cyan;
+}
+
+.flower2{
+    font-size: 23px;
+    letter-spacing: 1px;
+    color: palevioletred;
+    transition-property: letter-sapcing, color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.flower2:hover{
+    letter-spacing: 15px;
+    color: cyan;
 }
